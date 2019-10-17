@@ -1,7 +1,7 @@
 # Intro to Python Workshop ![Python 3.5+](https://img.shields.io/badge/python-3.5+-blue.svg)
 
 The attached code was created for the Introduction to Python Workshop run by the Quantitative Sciences Course Union at the University of British Columbia, Okanagan.
-For more information: visit the QSCU website(http://qscu.org/)
+For more information: visit http://qscu.org/
 
 ## Quickstart
 
@@ -21,6 +21,8 @@ python3 test_qscu.py
 
 The structure of the code given in the workshop is as follows:
 
+    ├── beginner_intro.py         # A document with a large amount of referencable code for introductory coding
+    ├── read_from_api.py          # The code telling how to read from the Financial Modeling Prep API (https://financialmodelingprep.com/)
     .
     ├── qscu.py                   # The class that represents the shop and accesses a SQLite database 
     ├── test_add.py               # The hello world of unit testing, testing the add function
