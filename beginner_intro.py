@@ -101,9 +101,67 @@ sample_tuple = ('cosc', 328, 'should', 'stay', 'an', 'immutable', 'unit')
 sample_set = {'a', 'duplicate', 'in', 'a', 'set', 'is', 'deleted'}
 
 
-# list
+# list comprehension
+ 
+some_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+negative_evens = [-i for i in some_list if i % 2 == 0]
+
+
+# this is equivalent to
+
+negative_evens_2 =[]
+for i in some_list:
+    if i % 2 == 0:
+        negative_evens_2.append(-i)
 
 
 
+# Functions
 
 
+def add_all(a, b, c, d=0):
+    # if d is not given into the function,
+    # the value of d is zero by default
+    return a + b + c + d
+
+def function_in_fuction():
+    # you can have a function in a function
+    print('a=4, b=9, c=-10, d=9')
+    sum = add_all(4,9,-10,9)
+    print('the sum of a, b, c, d is', sum)
+
+print(add_all(0,1,0,9))
+
+
+
+# Object Oriented Programming
+
+class Robot:
+    '''
+    This is a Robot
+    '''
+    def __init__(self, metal_type, ai=True):
+        self.metal_type = metal_type
+        self.ai=ai
+    
+    def do_robot_thing(self):
+        self.spin()
+    
+    @static
+    def spin():
+        return
+
+def SpecialRobot(Robot):
+    '''
+    This is a Robot that has been extended to have a special item
+    '''
+    def __init__(self, metal_type, special_item='love and affection', ai=True):
+        super(Robot)
+        self.special_item = special_item
+    
+    def use_special_item(self):
+        return self.special_item
+    
+    def change_special_item(self):
+        new_item = input('What is the Robot\'s new item?')
+        self.special_item = new_item
