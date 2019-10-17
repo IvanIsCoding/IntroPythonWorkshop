@@ -1,4 +1,4 @@
-# Intro to Python Workshop ![Python 3.5+](https://img.shields.io/badge/python-3.5+-blue.svg)]
+# Intro to Python Workshop ![Python 3.5+](https://img.shields.io/badge/python-3.5+-blue.svg)
 
 The attached code was created for the Introduction to Python Workshop run by the Quantitative Sciences Course Union at the University of British Columbia, Okanagan.
 
