@@ -27,8 +27,8 @@ The structure of the code given in the workshop is as follows:
     ├── qscu.py                   # The class that represents the shop and accesses a SQLite database 
     ├── test_add.py               # The hello world of unit testing, testing the add function
     ├── test_qscu.py              # The tests for the qscu.py file we wrote during the workshop
-    
-    ├── Intro to Python.ipynb     # A notebook that condenses all of the code into one python notebook
+    .
+    ├── IntroPython.ipynb     # A notebook that condenses all of the code into one python notebook
     
 ### Interactive Notebook
 
