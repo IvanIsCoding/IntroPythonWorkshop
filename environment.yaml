@@ -1,0 +1,7 @@
+name: IntroPython
+dependencies:
+- python
+- pip=18
+- notebook
+- ipywidgets
+- rise
